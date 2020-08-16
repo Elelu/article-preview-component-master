@@ -74,10 +74,10 @@ text-align: left;
   .card{
     margin: 100px auto;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 250px;
     grid-template-rows: 2fr 3fr 0.3fr;
-    width: 40%;
     background-color: #fff;
+    width: 250px;
     border-radius: 10px;
   }
 
@@ -85,6 +85,7 @@ text-align: left;
   margin-left: 0;
   padding: 10px;
   text-align: left;
+
   }
 
   .drawer-image{
@@ -105,7 +106,7 @@ text-align: left;
     border-bottom-right-radius: 10px;
   }
   .social img{
-    margin-right: 0px;
+    margin-right: 5px;
     height: 15px;
   }
 .social .share{
